@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class ChangeScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string URL = "https://github.com/B00156478/Challenge05";
+
+
+    public void loadUrl()
     {
-        
+
+        Application.OpenURL(URL);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
